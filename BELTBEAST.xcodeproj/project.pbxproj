@@ -8,22 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		B63907B42020DE1500BF33F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63907B32020DE1500BF33F9 /* AppDelegate.swift */; };
-		B63907B62020DE1600BF33F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63907B52020DE1600BF33F9 /* ViewController.swift */; };
+		B63907B62020DE1600BF33F9 /* incompleteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63907B52020DE1600BF33F9 /* incompleteVC.swift */; };
 		B63907B92020DE1600BF33F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B63907B72020DE1600BF33F9 /* Main.storyboard */; };
 		B63907BC2020DE1600BF33F9 /* BELTBEAST.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B63907BA2020DE1600BF33F9 /* BELTBEAST.xcdatamodeld */; };
 		B63907BE2020DE1600BF33F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B63907BD2020DE1600BF33F9 /* Assets.xcassets */; };
 		B63907C12020DE1600BF33F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B63907BF2020DE1600BF33F9 /* LaunchScreen.storyboard */; };
+		B63907C92020E1AF00BF33F9 /* customCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63907C82020E1AF00BF33F9 /* customCell.swift */; };
+		B63907CB2020E28D00BF33F9 /* completedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63907CA2020E28D00BF33F9 /* completedVC.swift */; };
+		B63907CD2020E35300BF33F9 /* addTaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63907CC2020E35300BF33F9 /* addTaskVC.swift */; };
+		B63907CF2020E4EF00BF33F9 /* addTaskProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63907CE2020E4EF00BF33F9 /* addTaskProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B63907B02020DE1500BF33F9 /* BELTBEAST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BELTBEAST.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B63907B32020DE1500BF33F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B63907B52020DE1600BF33F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B63907B52020DE1600BF33F9 /* incompleteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = incompleteVC.swift; sourceTree = "<group>"; };
 		B63907B82020DE1600BF33F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B63907BB2020DE1600BF33F9 /* BELTBEAST.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BELTBEAST.xcdatamodel; sourceTree = "<group>"; };
 		B63907BD2020DE1600BF33F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B63907C02020DE1600BF33F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B63907C22020DE1600BF33F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B63907C82020E1AF00BF33F9 /* customCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customCell.swift; sourceTree = "<group>"; };
+		B63907CA2020E28D00BF33F9 /* completedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = completedVC.swift; sourceTree = "<group>"; };
+		B63907CC2020E35300BF33F9 /* addTaskVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addTaskVC.swift; sourceTree = "<group>"; };
+		B63907CE2020E4EF00BF33F9 /* addTaskProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addTaskProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +64,13 @@
 		B63907B22020DE1500BF33F9 /* BELTBEAST */ = {
 			isa = PBXGroup;
 			children = (
-				B63907B32020DE1500BF33F9 /* AppDelegate.swift */,
-				B63907B52020DE1600BF33F9 /* ViewController.swift */,
 				B63907B72020DE1600BF33F9 /* Main.storyboard */,
+				B63907B52020DE1600BF33F9 /* incompleteVC.swift */,
+				B63907CA2020E28D00BF33F9 /* completedVC.swift */,
+				B63907CC2020E35300BF33F9 /* addTaskVC.swift */,
+				B63907CE2020E4EF00BF33F9 /* addTaskProtocol.swift */,
+				B63907C82020E1AF00BF33F9 /* customCell.swift */,
+				B63907B32020DE1500BF33F9 /* AppDelegate.swift */,
 				B63907BD2020DE1600BF33F9 /* Assets.xcassets */,
 				B63907BF2020DE1600BF33F9 /* LaunchScreen.storyboard */,
 				B63907C22020DE1600BF33F9 /* Info.plist */,
@@ -139,8 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B63907B62020DE1600BF33F9 /* ViewController.swift in Sources */,
+				B63907B62020DE1600BF33F9 /* incompleteVC.swift in Sources */,
+				B63907CD2020E35300BF33F9 /* addTaskVC.swift in Sources */,
+				B63907CB2020E28D00BF33F9 /* completedVC.swift in Sources */,
 				B63907BC2020DE1600BF33F9 /* BELTBEAST.xcdatamodeld in Sources */,
+				B63907CF2020E4EF00BF33F9 /* addTaskProtocol.swift in Sources */,
+				B63907C92020E1AF00BF33F9 /* customCell.swift in Sources */,
 				B63907B42020DE1500BF33F9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5VC7RAKUD;
 				INFOPLIST_FILE = BELTBEAST/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.liam.BELTBEAST;
@@ -293,6 +310,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5VC7RAKUD;
 				INFOPLIST_FILE = BELTBEAST/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.liam.BELTBEAST;
